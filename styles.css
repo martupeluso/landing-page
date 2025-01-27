@@ -75,3 +75,28 @@ body {
     border-radius: 16px;
     background-color: #FFF6F7;
 }
+
+
+.dlc-section {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 550px;
+}
+
+.dlc-section h2 {
+    font-size: 36px;
+    margin-bottom: 42px;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.boxes-container h3 {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
