@@ -9,3 +9,69 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+.main-section {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    max-width: 1400px;
+    padding: 26px;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav div h1 {
+    font-size: 24px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.nav ul li {
+    font-size: 18px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.hero-text {
+    max-width: 680px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    font-size: 18px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 16px;
+    background-color: #FFF6F7;
+}
