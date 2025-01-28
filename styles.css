@@ -100,3 +100,35 @@ body {
     margin-top: 12px;
     margin-bottom: 6px;
 }
+
+.quote-section {
+    background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-section span {
+    font-weight: bold;
+}
+
+.quote-container {
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.quote-container .quote-author {
+    font-weight: bold;
+    font-style: normal;
+    align-self: flex-end;
+}
