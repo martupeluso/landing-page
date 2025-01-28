@@ -132,3 +132,40 @@ body {
     font-style: normal;
     align-self: flex-end;
 }
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: #fff;
+}
+
+.cta-container {
+    background-color: #000;
+    border-radius: 15px;
+    width: 1100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cta-container p {
+    font-size: 24px;
+}
+
+.cta-container .cta-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cta-container button {
+    background: none;
+    font-size: 24px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 12px 32px;
+}
