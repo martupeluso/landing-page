@@ -46,6 +46,15 @@ body {
     font-weight: 500;
 }
 
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
 .hero-section {
     display: flex;
     align-items: center;
