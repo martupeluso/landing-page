@@ -99,6 +99,35 @@ body {
     margin: 6px 0;
 }
 
+.quote-section {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    text-align:end;
+    width: 980px;
+    font-style: italic;
+    font-size: 36px;
+    gap: 20px;
+}
+
+.quote-container span {
+    font-weight: bold;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
+
 button:hover {
     cursor: pointer;
     background-color: lightblue;
